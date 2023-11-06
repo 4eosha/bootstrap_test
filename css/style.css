@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,500&display=swap');
+
+/* БАЗА */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+}
+body{
+	background-color: #E0C9A6;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	color: #1b1a1a;
+}
+img {
+	max-width: 100%;
+}
+.img-margin {
+	margin: 20px 0;
+}
+.eb-garamond {
+	line-height: 1.3em;
+}
+h1 {
+	font-weight: 700;
+}
+h5 {
+	font-weight: 600;
+}
+.col-12 {
+	margin-bottom: 15px;
+}
+.row-up {
+	margin-top: 15px
+}
+.btn-primary {
+    --bs-btn-bg: #6e4939;
+    --bs-btn-border-color: #633a28;
+    --bs-btn-hover-bg: #633a28;
+    --bs-btn-hover-border-color: #633a28;
+    --bs-btn-active-bg: #633a28;
+    --bs-btn-active-border-color: #633a28;
+    --bs-btn-disabled-bg: #6e4939;
+	font-weight: 700;
+}
+.text-margin {
+	margin-top: 20px;
+}
+
+/* АККОРДЕОН */
+.accordion {
+	--bs-accordion-active-color: #white;
+	--bs-accordion-btn-focus-box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.25);
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bs-white);
+    background-color: #6e4939;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon);
+}
+.accordion-button, .nav-tabs {
+	font-weight: 600;
+}
+
+/* ТАБЫ */
+.tab-body {
+	margin: 0 -5px;
+}
+.tab-content {
+	background-color: white;
+}
+.nav-tabs {
+	border: none;
+}
+.nav-link {
+	background-color: white;
+	color: #212529;
+	--bs-nav-link-hover-color: #6e4939;
+	transition: 0.15s;
+	-webkit-transition: 0.15s;
+	-moz-transition: 0.15s;
+	-ms-transition: 0.15s;
+	-o-transition: 0.15s;
+}
+.nav-tabs {
+	--bs-nav-tabs-link-active-border-color: #633a28;
+}
+#home-tab.active, #profile-tab.active, #contact-tab.active {
+	background-color: #6e4939;
+	box-shadow: 0px 10px #633a28;
+	color: white;
+}
+.rounded-tab {
+	border-radius: 0 0.375rem 0.375rem 0.375rem;
+	-webkit-border-radius: 0 0.375rem 0.375rem 0.375rem;
+	-moz-border-radius: 0 0.375rem 0.375rem 0.375rem;
+	-ms-border-radius: 0 0.375rem 0.375rem 0.375rem;
+	-o-border-radius: 0 0.375rem 0.375rem 0.375rem;
+}
+
+/* СЛАЙДЕР */
+.carousel-item {
+	max-height: 600px;
+	text-shadow: 1px 1px 2px #212529;
+}
+.carousel-caption {
+	bottom: 2rem;
+}
+
+/* ФОРМА */
+.form-background {
+	background-color: white;
+}
+.form-p {
+	padding: 0 100px;
+}
+.form-check-p {
+	padding: 0 45px;
+}
