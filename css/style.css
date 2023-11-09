@@ -16,7 +16,7 @@ ul {
 	list-style-type: none;
 }
 a {
-	color: #1b1a1a;
+	color: #212529;
 }
 img {
 	max-width: 100%;
@@ -38,6 +38,20 @@ h5 {
 }
 .row-up {
 	margin-top: 15px
+}
+.navbar {
+	font-weight: 700;
+	background-color: #fff;
+}
+.navbar-brand {
+	color: #212529;
+}
+.navbar-toggler {
+    color: #212529;
+	border: #212529;
+}
+.navbar-toggler-icon {
+    background-image: url("/img/burger\ menu.png");
 }
 .btn-primary {
     --bs-btn-bg: #6e4939;
