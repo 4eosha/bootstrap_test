@@ -51,7 +51,7 @@ h5 {
 	border: #212529;
 }
 .navbar-toggler-icon {
-    background-image: url("/img/burger\ menu.png");
+    background-image: url("img/burger\ menu.png");
 }
 .btn-primary {
     --bs-btn-bg: #6e4939;
